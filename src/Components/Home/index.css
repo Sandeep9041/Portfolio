@@ -1,0 +1,210 @@
+.home-container{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height:100vh;
+background-color:#fafafa;
+}
+@media (max-width:699px){
+    .home-container{
+        flex-direction:column;
+        justify-content: flex-start;
+    }
+}
+.yellow-img{
+    width:75%;
+    height:60%;
+    margin-right: 0px;
+    margin-left: 55px;
+    margin-top:70px;
+}
+@media (min-width:700px) and (max-width:1000px){
+    .yellow-img{
+        width: 90%;
+        height: 50%;
+        margin-bottom: 0px;
+    }
+}
+@media (max-width:699px){
+    .yellow-img{
+       width:99%;
+       background-color: #FDC435;
+       align-self: flex-start;
+       margin-bottom: 0px;;
+        margin-top:21px;
+        margin-left: 0px;
+        height: 100%;
+    }
+}
+
+.profession{
+    font-family: 'Roboto', sans-serif;
+    color: #FDC435;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+@media (min-width:700px) and (max-width:1000px){
+    .profession{
+        font-size: 17px;
+    }
+}
+@media (max-width:699px){
+    .profession{
+        font-size:15px;
+    }
+}
+.img{
+    background-image: url("https://res.cloudinary.com/dxsppjwqc/image/upload/v1685422306/yellow-bg_egmn4w.png");
+    width: 750px;
+    height:635px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width:700px) and (max-width:1000px){
+    .img{
+        width: 550px;
+        justify-content: flex-end;
+    }
+}
+@media (max-width:699px){
+    .img{
+        width:100%;
+        height:30%;
+        background-image: none;
+        margin-top:0px;
+        display: flex;
+        justify-content:  flex-start;
+        /* background-color: green; */
+    }
+}
+.content-container{
+    height:369px;
+    width: 486px;
+    margin-top: 115px;
+    padding-left: 115px;
+    background-color:#ffffff;
+}
+@media (min-width:700px) and (max-width:1000px){
+    .content-container{
+        margin-top:25px;
+        width: 440px;
+        padding-left:35px;
+    }
+}
+@media (max-width:699px){
+    .content-container{
+        width:95%;
+        padding-left: 25px;
+        margin-top:35px;
+    }
+}
+.name{
+font-family:" Playfair Display";
+line-height: 120%;
+font-size: 60px;
+margin-top:11px;
+color:#25282B;
+font-weight: 700;
+}
+@media (min-width:700px) and (max-width:1000px){
+    .name{
+        font-size:40px;
+    }
+}
+@media (max-width:699px){
+    .name{
+       font-size: 35px; 
+    }
+}
+p{
+    color:#828282;
+    font-family:'Roboto', sans-serif; 
+    line-height:150%;
+    font-size: 21px;
+}
+@media (max-width:699px){
+    p{
+     font-size: 15px;   
+    }
+}
+.button{
+width: 95px;
+height: 35px;
+outline:none;
+cursor:pointer;
+border-radius:7px;
+font-weight:500;
+}
+.button1{
+    background-color: #FDC435;
+    border: 0px;
+    color: #25282B;
+    font-family:'Roboto', sans-serif;
+    margin-right: 15px;
+}
+.button2{
+    border:1px solid #25282B;
+    font-weight:600;
+color: #25282B;
+    background-color: transparent;
+}
+.nav-logo{
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    margin-left:115px;
+    color:#25282B;
+}
+@media (max-width:766px){
+    .nav-logo{
+        margin-left:25px;
+        font-size: 14px;
+    }
+    }
+    @media (min-width:767px) and  (max-width: 1000px){
+        .nav-logo{
+        margin-left:65px;
+        }
+    }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding-right:55px ;
+    color:#25282B;
+    padding:5px;
+}
+nav{
+    display: flex;
+    width:35%;
+    justify-content: space-around;
+}
+.nav-item{
+    font-size: 17px;
+    font-family: 'Comfortaa', cursive;
+    color:#25282B;
+}
+.small-container{
+    display: none;
+}
+@media (max-width: 766px){
+nav{
+    display: none;
+}
+}
+@media (max-width: 766px){
+    .small-container{
+        display: flex;
+    }
+    .btn{
+        background-color: transparent;
+        border: 0px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: 'Comfortaa', cursive;
+
+    }
+    }
