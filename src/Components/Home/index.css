@@ -130,12 +130,12 @@ p{
     }
 }
 .button{
-width: 95px;
-height: 35px;
-outline:none;
-cursor:pointer;
-border-radius:7px;
-font-weight:500;
+    width: 95px;
+    height: 35px;
+    outline:none;
+    cursor:pointer;
+    border-radius:7px;
+    font-weight:500;
 }
 .button1{
     background-color: #FDC435;
@@ -147,7 +147,7 @@ font-weight:500;
 .button2{
     border:1px solid #25282B;
     font-weight:600;
-color: #25282B;
+    color: #25282B;
     background-color: transparent;
 }
 .nav-logo{
