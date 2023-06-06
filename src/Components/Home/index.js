@@ -25,7 +25,7 @@ const Home = () => (
             </button>
             </div> 
         </div> 
-        <div className="img order">
+        <div className="img orders">
         <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1685425109/woman-working-using-laptop-flat-design_1308-96714-removebg-preview_eerjrl.png" alt="bg" className="yellow-img"/>
 
 </div>

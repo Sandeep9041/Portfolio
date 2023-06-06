@@ -8,11 +8,11 @@ const Projects =()=>(
     <div className="projects-container">
         <div className="heading-container">
         <h1 className="projects-heading">Projects</h1>
-        <hr className="break"/>
+        <hr className="project-break"/>
         </div>
 
         <div className="projects-list">
-        <div className="project-item">
+            <div className="project-item">
                     <div className="project-content-left">
                         <h2 className="project-content-heading">
                             Jobby App
@@ -66,8 +66,40 @@ const Projects =()=>(
                         <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-watch-home-success-light-theme-lg-output.png" alt="project" className="project-image"/>
                     </div>
             </div>
-            
-            
+            <div className="project-item">
+            <div className="project-image-container-left">
+                        <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1685866860/Screenshot_12_vpx7hp.png" alt="project" className="project-image-left"/>
+                    </div>
+                    <div className="project-content">
+                        <h2 className="project-content-heading">
+                        Food Munch 
+                        </h2>
+                        <p className="project-content-para">
+                        Developed a responsive website for Food Store where users can see a list of food
+                        items, detailed information about a food item, offer.
+                        </p>
+                        <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">: HTML, CSS, Bootstrap</span>
+                        </p>
+                        <a href="https://sandeepsaini.ccbp.tech/" className="project-link">View Project</a>
+                     </div>
+                   
+            </div>
+            <div className="project-item">
+                    <div className="project-content">
+                        <h2 className="project-content-heading">
+                            Rock Scissors Paper Game
+                        </h2>
+                        <p className="project-content-para">
+                        Built a simple game using React, which includes a rule book which will guide you how to play. 
+                        </p>
+                        <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS</span>
+                        </p>
+                        <a href="https://scissorsrock.ccbp.tech/" className="project-link">View Project</a>
+                    </div>
+                    <div className="project-image-container order">
+                        <img src="https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png" alt="project" className="project-image"/>
+                    </div>
+            </div>
         </div>
     </div>
     </>

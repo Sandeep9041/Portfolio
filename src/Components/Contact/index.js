@@ -53,7 +53,7 @@ const Contact=()=>{
         <div className="contact-details-containers">
         <div >
     <h1 className="contact-me">Contact</h1>
-    <hr className="break" />
+    <hr className="break-contact" />
     </div>
     <form   method="POST" onSubmit={submitForm.bind()}>
         <label htmlFor="name">Name</label>
@@ -76,7 +76,7 @@ const Contact=()=>{
             <MdMail  style={{fontSize:"40px",color:"#25282B",marginBottom:"3px"}}/></a>
     </div>
     </div>
-    <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1685462707/Vector_vpqctr.png" alt="yellow-vector" className="yellow-vectors" />
+    {/* <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1685462707/Vector_vpqctr.png" alt="yellow-vector" className="yellow-vectors" /> */}
     </div>
     </>
 )

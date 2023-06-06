@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     background-color:#fafafa;
-height:90vh;
+height:100vh;
 }
 .contact-me{
     font-family:" Playfair Display";
@@ -27,11 +27,11 @@ height:90vh;
         font-size: 35px;
     }
 }
-.break {
+.break-contact {
     height: 3px;
     background-color: #FDC435;
     border: 0px;
-    width:95px;
+    width:85px;
     margin-top:3px;
 }
 form{
@@ -88,8 +88,8 @@ textarea{
   z-index: 1;        
     /* background-color: red; */
 }
-.yellow-vectors{
-    margin-top:-80px;
-    height:169px;
+/* .yellow-vectors{
+    margin-top:0px;
+    height:155px;
     width: 100%;
-}
+} */
