@@ -12,6 +12,23 @@ const Projects =()=>(
         </div>
 
         <div className="projects-list">
+        <div className="project-item">
+            <div className="project-image-container-left">
+                        <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1688449638/img_d3mx9y.png" alt="project" className="project-image-left"/>
+                    </div>
+                    <div className="project-content">
+                        <h2 className="project-content-heading">
+                        Money Balancing
+                        </h2>
+                        <p className="project-content-para">
+                            YABN Money Balancing app build using technologies such as ReactJS and Lottie Animations.
+                        </p>
+                        <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Styled Components, Lottie Files</span>
+                        </p>
+                        <a href="https://effortless-mousse-0d3830.netlify.app/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
+                    </div>
+                   
+            </div>
             <div className="project-item">
                     <div className="project-content-left">
                         <h2 className="project-content-heading">
@@ -23,7 +40,7 @@ const Projects =()=>(
                         </p>
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Routing, REST API</span>
                         </p>
-                        <a href="https://appjob.ccbp.tech/login" className="project-link">View Project</a>
+                        <a href="https://appjob.ccbp.tech/login" target="_blank" rel="noreferrer" className="project-link">View Project</a>
                     </div>
                     <div className="project-image-container order">
                         <img src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-home-lg-output.png" alt="project" className="project-image"/>
@@ -44,7 +61,7 @@ const Projects =()=>(
                         </p>
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Authorization, Authentication, REST API</span>
                         </p>
-                        <a href="https://ecomms.ccbp.tech/" className="project-link">View Project</a>
+                        <a href="https://ecomms.ccbp.tech/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
                     </div>
                    
             </div>
@@ -60,7 +77,7 @@ const Projects =()=>(
                         </p>
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Routing, REST API</span>
                         </p>
-                        <a href="https://ntube.ccbp.tech/" className="project-link">View Project</a>
+                        <a href="https://ntube.ccbp.tech/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
                     </div>
                     <div className="project-image-container order">
                         <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-watch-home-success-light-theme-lg-output.png" alt="project" className="project-image"/>
@@ -80,7 +97,7 @@ const Projects =()=>(
                         </p>
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">: HTML, CSS, Bootstrap</span>
                         </p>
-                        <a href="https://sandeepsaini.ccbp.tech/" className="project-link">View Project</a>
+                        <a href="https://sandeepsaini.ccbp.tech/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
                      </div>
                    
             </div>
@@ -94,7 +111,7 @@ const Projects =()=>(
                         </p>
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS</span>
                         </p>
-                        <a href="https://scissorsrock.ccbp.tech/" className="project-link">View Project</a>
+                        <a href="https://scissorsrock.ccbp.tech/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
                     </div>
                     <div className="project-image-container order">
                         <img src="https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png" alt="project" className="project-image"/>
