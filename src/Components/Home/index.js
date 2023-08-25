@@ -22,7 +22,7 @@ const Home = () => (
             </Link>
 
             <button className="button button2">
-                <a href="https://www.linkedin.com/in/sandeepsks/" style={{textDecoration:"none",color:"#25282B"}} target="_blank">                Linkdin
+                <a href="https://www.linkedin.com/in/sandeepsks/"  rel="noreferrer" style={{textDecoration:"none",color:"#25282B"}} target="_blank">                Linkdin
 </a>
             </button>
             </div> 
