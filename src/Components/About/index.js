@@ -1,4 +1,5 @@
 import Slider from 'react-slick'
+import React, { Component }  from 'react';
 
  import 'slick-carousel/slick/slick.css'
  import 'slick-carousel/slick/slick-theme.css'
@@ -34,9 +35,10 @@ const About =()=>{
         nextArrow: <SampleNextArrow />,
       prevArrow: <SampleNextArrow />
       }
-return(
-    <>
-    <Header/>
+
+return (
+    // <>
+    {/* <Header/>
     <div style={{width:"100%",display:"flex",flexDirection:"column",alignItems:"center",height:"110vh"}}>
     <div className="about-container">
         <div className="about">
@@ -121,8 +123,8 @@ return(
       </Slider>
     </div>
       </div>
-    </div>
-    </>
+    </div> */}
+    // </>
 )
 }
 export default About

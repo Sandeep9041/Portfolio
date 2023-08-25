@@ -1,4 +1,6 @@
 import { useState } from "react"
+import React from 'react';
+
 import {FaGithubSquare} from "react-icons/fa"
 import {AiFillLinkedin} from "react-icons/ai"
 import {MdMail} from "react-icons/md"
@@ -32,6 +34,8 @@ const Contact=()=>{
             (response)=>(response.json())
         ).then((response)=>{
             if(response.status==="success"){
+                // console.log(resposne.json())
+
                 alert("Message was sent successfully")
             }else if (response.status==="fail"){
                 alert("Message was not sent successfully")
@@ -47,7 +51,7 @@ const Contact=()=>{
     }));
     }
     return(
-    <>
+    <div>
     <Header/>
     <div className="contact-container">
         <div className="contact-details-containers">
@@ -78,7 +82,7 @@ const Contact=()=>{
     </div>
     {/* <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1685462707/Vector_vpqctr.png" alt="yellow-vector" className="yellow-vectors" /> */}
     </div>
-    </>
+    </div>
 )
 }
 export default Contact

@@ -1,9 +1,11 @@
+import React, { Component }  from 'react';
+
 import Header from "../Header/index"
 import "./index.css"
 
 
 const Projects =()=>(
-    <>
+    <div>
     <Header/>
     <div className="projects-container">
         <div className="heading-container">
@@ -12,6 +14,23 @@ const Projects =()=>(
         </div>
 
         <div className="projects-list">
+        <div className="project-item">
+            <div className="project-image-container-left">
+                        <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1688449638/img_d3mx9y.png"  alt="project" className="project-image-left"/>
+                    </div>
+                    <div className="project-content">
+                        <h2 className="project-content-heading">
+                            YABN Money Balancing
+                        </h2>
+                        <p className="project-content-para">
+                        Created this website using ReactJS and Lottie animations.
+                        </p>
+                        <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Styled Components, Lottie Files, Fade Library </span>
+                        </p>
+                        <a href="https://effortless-mousse-0d3830.netlify.app/" className="project-link">View Project</a>
+                    </div>
+                   
+            </div>
             <div className="project-item">
                     <div className="project-content-left">
                         <h2 className="project-content-heading">
@@ -102,7 +121,7 @@ const Projects =()=>(
             </div>
         </div>
     </div>
-    </>
+    </div>
 )
 
 

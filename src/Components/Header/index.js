@@ -1,3 +1,5 @@
+import React, { Component }  from 'react';
+
 import { Link } from "react-router-dom";
 import Popup from 'reactjs-popup'
 import {GoThreeBars} from "react-icons/go"
@@ -46,7 +48,7 @@ const Header =()=>(
                     }
                   >
                     {close => (
-                      <>
+                      
                         <div
                           style={{
                             width: '100vw',
@@ -141,7 +143,7 @@ const Header =()=>(
                             </Link>
                           </ul>
                         </div>
-                      </>
+                      
                     )}
                   </Popup>
                 </div>
