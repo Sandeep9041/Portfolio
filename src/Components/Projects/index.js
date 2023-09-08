@@ -16,7 +16,6 @@ const Projects =()=>(
         <div className="projects-list">
         <div className="project-item">
             <div className="project-image-container-left">
-<<<<<<< HEAD
                         <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1688449638/img_d3mx9y.png"  alt="project" className="project-image-left"/>
                     </div>
                     <div className="project-content">
@@ -29,7 +28,6 @@ const Projects =()=>(
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Styled Components, Lottie Files, Fade Library </span>
                         </p>
                         <a href="https://effortless-mousse-0d3830.netlify.app/" className="project-link">View Project</a>
-=======
                         <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1688449638/img_d3mx9y.png" alt="project" className="project-image-left"/>
                     </div>
                     <div className="project-content">
@@ -42,7 +40,6 @@ const Projects =()=>(
                         <p className="technologies">Technologies used:&nbsp;&nbsp;<span className="technologies-content-para">React JS, JavaScript, CSS, Styled Components, Lottie Files</span>
                         </p>
                         <a href="https://effortless-mousse-0d3830.netlify.app/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
->>>>>>> 36b38555b6fe58e34a29a94dfc7e712a009be6f2
                     </div>
                    
             </div>

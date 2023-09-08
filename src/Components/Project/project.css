@@ -37,8 +37,6 @@
     max-width:1260px ; 
     display: flex ;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
-     /* display:grid;  */
     grid-template-columns:repeat(4, 7fr);
     grid-template-rows:4fr;
     grid-column-gap:30px;
@@ -46,6 +44,14 @@
     align-items: center;
     margin-top:55px;
     margin-bottom:55px;
+}
+@media (max-width: 1000px){
+    .main{
+       flex-wrap:wrap;
+    }
+    .main .card {
+       width:44%;   
+    }
 }
 .main .card {
     position: relative;
@@ -67,6 +73,12 @@
     background-size: cover;
     background-repeat:no-repeat;
 }
+@media (max-width: 767px){
+    .main .card{
+        margin-inline:auto;
+        width:85%;
+    }
+}
 .main .card.card-1 {
     background-image : url("https://res.cloudinary.com/dxsppjwqc/image/upload/v1692871747/Screenshot_33_ppwmyl.png");
     background-size: cover;
@@ -86,6 +98,14 @@
 .main .card.card-5 {
     background-image : url("https://assets.ccbp.in/frontend/content/react-js/rock-paper-scissors-lg-playing-output.png");
     background-size: cover;
+}
+.main .card.card.card-6 {
+    background-image: url("https://res.cloudinary.com/dxsppjwqc/image/upload/v1694155755/Screenshot_36_u9cr8b.png");
+    background-size:cover;
+}
+.main .card.card.card-7 {
+    background-image: url("https://res.cloudinary.com/dxsppjwqc/image/upload/v1694156211/Screenshot_38_mmtcvp.png");
+    background-size:cover;
 }
 .main .card .content {
     position: absolute;

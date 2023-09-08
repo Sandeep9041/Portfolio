@@ -13,7 +13,22 @@ const Project =()=>(
 
 
     <div className='main'>
-
+    <div className='card card-7'>
+            <div className='content'>
+                <h5>Aseop clone</h5>
+                <p>Built clone of Aseop website.</p>
+                <p>Technologies Used: React JS, JavaScript, Bootstrap</p>
+                <a href="https://velvety-nasturtium-ba3b4d.netlify.app///" className="project-link">View Project</a>
+            </div>
+        </div>
+        <div className='card card-6'>
+            <div className='content'>
+                <h5>Wellfound clone</h5>
+                <p>Built clone of wellfound website.</p>
+                <p>Technologies Used: React JS, JavaScript, Bootstrap</p>
+                <a href="https://effulgent-praline-70192e.netlify.app//" className="project-link">View Project</a>
+            </div>
+        </div>
         <div className='card card-1'>
             <div className='content'>
                 <h5>YABN Money Balancing</h5>
