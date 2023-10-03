@@ -1,10 +1,11 @@
 import Slider from 'react-slick'
-import React, { Component }  from 'react';
+import React  from 'react';
 
  import 'slick-carousel/slick/slick.css'
  import 'slick-carousel/slick/slick-theme.css'
-
-import Header from "../Header/index"
+ import Lottie from "lottie-react";
+ import Art from "../img/Art.json"
+ import Header from "../Header/index.js";
 
 import "./index.css"
 
@@ -37,8 +38,8 @@ const About =()=>{
       }
 
 return (
-    // <>
-    {/* <Header/>
+     <div>
+   <Header/>
     <div style={{width:"100%",display:"flex",flexDirection:"column",alignItems:"center",height:"110vh"}}>
     <div className="about-container">
         <div className="about">
@@ -56,6 +57,7 @@ return (
             </a>
         </div>
     <div className="bg">
+    {/* <Lottie animationData={Art} /> */}
     <img src="https://res.cloudinary.com/dxsppjwqc/image/upload/v1685441313/young-woman-white_25030-39527-removebg-preview_amj4e9.png" alt="about" />
     </div>
 
@@ -123,8 +125,8 @@ return (
       </Slider>
     </div>
       </div>
-    </div> */}
-    // </>
+    </div> 
+   </div>
 )
 }
 export default About

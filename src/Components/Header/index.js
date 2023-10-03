@@ -1,8 +1,8 @@
-import React, { Component }  from 'react';
+import React from 'react';
 
 import { Link } from "react-router-dom";
 import Popup from 'reactjs-popup'
-import {GoThreeBars} from "react-icons/go"
+import {FaBars} from "react-icons/fa"
 import {ImCross} from "react-icons/im"
 
 
@@ -36,7 +36,7 @@ const Header =()=>(
                           marginBottom: '0px',
                         }}
                       >
-                        <GoThreeBars
+                        <FaBars
                           style={{
                             fontSize: '25px',
                             marginRight: '10px',

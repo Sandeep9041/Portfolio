@@ -4,7 +4,7 @@ import React from 'react';
 import {FaGithubSquare} from "react-icons/fa"
 import {AiFillLinkedin} from "react-icons/ai"
 import {MdMail} from "react-icons/md"
-import Header from "../Header/index"
+import Header from "../Header/index.js"
 import "./index.css"
 
 
@@ -70,13 +70,13 @@ const Contact=()=>{
     </form>
     
     <div className="icons">
-            <a  href="https://github.com/Sandeep9041"  target="_blank" rel="noreferrer">
+            <a  href="https://github.com/Sandeep9041"  target="_blank" rel="noopener noreferrer">
             <FaGithubSquare style={{fontSize:"35px",color:"#25282B",marginRight:"25px"}}/>
             </a>
-            <a href="https://www.linkedin.com/in/sandeepsks/"  target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/sandeepsks/"  target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin  style={{fontSize:"38px",color:"#25282B",marginRight:"25px"}}/>
             </a>
-            <a href="mailto:sandeepkaur.sk.9041@gmail.com"  target="_blank" rel="noreferrer">
+            <a href="mailto:sandeepkaur.sk.9041@gmail.com"  target="_blank" rel="noopener noreferrer">
             <MdMail  style={{fontSize:"40px",color:"#25282B",marginBottom:"3px"}}/></a>
     </div>
     </div>

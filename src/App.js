@@ -1,11 +1,11 @@
 import React from 'react';
 import {Routes,Route} from "react-router-dom";
 import './App.css';
-import Home from "./Components/Home"
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
-import About from "./Components/About";
-import Project from "./Components/Project/project";
+import Home from "./Components/Home/index.js"
+// import Projects from "./Components/Projects";
+import Contact from "./Components/Contact/index.js";
+import About from "./Components/About/index.js";
+import Project from "./Components/Project/project.js";
 
 
 const App = ()=>(
